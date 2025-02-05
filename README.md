@@ -57,17 +57,32 @@ Os arquivos devem estar organizados e salvos no seu computador.
 Na parte superior central da interface, localize a opção Import.
 * Clique em Import para abrir as opções de importação.
 * No menu Import, clique em Open.
-Isso abrirá o gerenciador de arquivos do seu computador.
-Selecione o arquivo correspondente que deseja importar:
-Fornecedores → fornecedores.csv
-Pedidos → pedidos.csv
-Confirme a seleção para carregar o arquivo na plataforma.
+- Isso abrirá o gerenciador de arquivos do seu computador.
+- Selecione o arquivo correspondente que deseja importar:
+- Fornecedores → fornecedores.csv
+- Pedidos → pedidos.csv
+- Confirme a seleção para carregar o arquivo na plataforma.
 
 Na janela de importação, revise:
-Tipo: Deve estar como CSV.
-Delimitador: Configure conforme o arquivo (padrão é vírgula).
-Column Name: Altere de New Auto para First Line, para que a primeira linha do arquivo seja usada como nome das colunas.
-Após confirmar que os nomes das colunas estão corretos (ex.: "Nome do fornecedor", "País de origem"), clique em OK.
-Verifique que a tabela foi importada corretamente no painel lateral esquerdo.
+- Tipo: Deve estar como CSV.
+- Delimitador: Configure conforme o arquivo (padrão é vírgula).
+- Column Name: Altere de New Auto para First Line, para que a primeira linha do arquivo seja usada como nome das colunas.
+- Após confirmar que os nomes das colunas estão corretos (ex.: "Nome do fornecedor", "País de origem"), clique em OK.
+- Verifique que a tabela foi importada corretamente no painel lateral esquerdo.
 
+Agora que a tabela Fornecedores foi importada com sucesso, você pode realizar a primeira consulta para visualizar os dados.  
 
+SELECT * FROM Fornecedores;
+
+##### O Que Esta Consulta Faz?
+"SELECT *": Seleciona todas as colunas da tabela.  
+"FROM" Fornecedores: Indica que os dados serão extraídos da tabela Fornecedores  
+
+# 📌 Boa Prática
+Sempre use o ponto e vírgula (;) ao final de cada comando SQL, mesmo que seu SGBD não o exija. Isso garantirá:
+
+* Legibilidade: Seu código será mais fácil de entender.
+* Compatibilidade: Scripts funcionarão em diferentes SGBDs.
+* Manutenção: Evitará problemas em projetos colaborativos.
+
+  
