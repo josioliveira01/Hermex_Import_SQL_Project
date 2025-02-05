@@ -12,3 +12,32 @@ O objetivo deste projeto é organizar, estruturar e analisar os dados fornecidos
 -Qual fornecedor tem maior impacto no faturamento?
 
 Com isso, o projeto serve como exemplo prático de habilidades em SQL aplicadas ao mercado e à análise de dados estratégica. 🚀
+
+## 🔍 SQL (Structured Query Language)
+SQL é uma linguagem padrão para interagir com bancos de dados.
+Ela permite:
+*Consultar dados: SELECT * FROM tabela.
+*Inserir dados: INSERT INTO tabela.
+*Atualizar ou excluir dados: UPDATE tabela ou DELETE FROM tabela.
+*Criar tabelas e gerenciar estruturas: CREATE TABLE tabela.
+É amplamente utilizada em empresas para lidar com grandes volumes de dados.
+
+## 🗃️ SGBD (Sistema de Gerenciamento de Banco de Dados)
+Um SGBD é o software responsável por gerenciar bancos de dados. Ele permite:
+*Armazenar, organizar e acessar os dados.
+*Garantir a integridade e segurança das informações.
+*Oferecer ferramentas para criar e manipular estruturas de banco de dados.
+Exemplos de SGBDs:
+MySQL
+PostgreSQL
+Oracle Database
+SQLite
+
+## 🌐 SQLite Online
+SQLite é um SGBD leve, simples e fácil de usar.
+SQLite Online é uma versão que pode ser acessada diretamente pela internet, sem precisar instalar nada no computador.
+Vantagens:
+Perfeito para testes rápidos e aprendizado.
+Interface amigável para executar comandos SQL diretamente no navegador.
+Não requer configurações complexas.
+
