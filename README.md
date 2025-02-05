@@ -41,3 +41,7 @@ Vantagens:
 * Interface amigável para executar comandos SQL diretamente no navegador.
 * Não requer configurações complexas.
 
+## 🔧 Tecnologias Utilizadas
+ * SQLite: Banco de dados relacional.
+ * Git/GitHub: Controle de versão e portfólio público.
+ * Markdown: Para documentação clara e organizada.
