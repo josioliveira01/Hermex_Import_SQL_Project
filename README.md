@@ -45,3 +45,9 @@ Vantagens:
  * SQLite: Banco de dados relacional.
  * Git/GitHub: Controle de versão e portfólio público.
  * Markdown: Para documentação clara e organizada.
+
+# 📋 Passo a Passo
+### 1️⃣ Acesse o SQLite Online
+Abra o navegador e vá para o site do SQLite Online ([sqliteonline.com](https://sqliteonline.com/)).
+Na interface inicial, você verá um editor SQL no lado direito e a estrutura de banco de dados no lado esquerdo.
+
