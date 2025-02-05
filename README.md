@@ -53,7 +53,7 @@ Na interface inicial, você verá um editor SQL no lado direito e a estrutura de
 
 #### Importe os Arquivos CSV
 Os arquivos devem estar organizados e salvos no seu computador.
-##### Utilize a Opção "Import"
+#### Utilize a Opção "Import"
 Na parte superior central da interface, localize a opção Import.
 * Clique em Import para abrir as opções de importação.
 * No menu Import, clique em Open.
